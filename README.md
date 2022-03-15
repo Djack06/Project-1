@@ -28,9 +28,11 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly <ins>available</ins>, in addition to restricting <ins>access</ins> to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+- _TODO: What aspect of security do load balancers protect? <ins>Load balancers lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. They also defend an organization against distributed denial-of-service (DDos) attacks.</ins>
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <ins>file system</ins> and system <ins>metrics such as CPU usage, logins and sudo escalation</ins>.
+- What is the advantage of a jump box?_
+
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <ins>file system</ins> and system <ins>performance such as CPU usage and memory usage</ins>.
 - _TODO: What does Filebeat watch for?_
 - _TODO: What does Metricbeat record?_
 
