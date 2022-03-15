@@ -10,7 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 https://github.com/Djack06/Project-1/blob/main/install-elk.yml
  
-https://github.com/Djack06/Project-1/blob/main/install-elk.yml.txt
+https://github.com/Djack06/Project-1/blob/main/filebeat.playbook.yml
 
 This document contains the following details:
 - Description of the Topologu
