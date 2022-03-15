@@ -30,7 +30,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly <ins>available</ins>, in addition to restricting <ins>access</ins> to the network.
 - _TODO: What aspect of security do load balancers protect?_ <ins>Load balancers lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. They also defend an organization against distributed denial-of-service (DDos) attacks.</ins>
 
-- What is the advantage of a jump box? <ins>Jump boxes improve security because they are highly-secured computers which are never used for non-administrative tasks such as accessing email and internet browsing.</ins>
+- _What is the advantage of a jump box?_ <ins>Jump boxes improve security because they are highly-secured computers which are never used for non-administrative tasks such as accessing email and internet browsing.</ins>
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <ins>file system</ins> and system <ins>performance such as CPU usage and memory usage.</ins>
 - _TODO: What does Filebeat watch for?_ <ins>Filebeat monitors log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.</ins>
@@ -55,7 +55,7 @@ Only the <ins>JumpBox</ins> machine can accept connections from the Internet. Ac
 - _TODO: Add whitelisted IP addresses_ <ins>Public IP Address:</ins>
 
 Machines within the network can only be accessed by <ins>SSH</ins>.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+- _TODO: Which machine did you allow to access your ELK VM?_ <ins>The JumpBox VM is the only machine allow to access the ELK VM.</ins> What was its IP address?_ <ins>10.0.0.4</ins>
 
 A summary of the access policies in place can be found in the table below.
 
