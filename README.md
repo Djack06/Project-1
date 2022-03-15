@@ -28,14 +28,14 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly <ins>available</ins>, in addition to restricting <ins>access</ins> to the network.
-- _TODO: What aspect of security do load balancers protect? <ins>Load balancers lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. They also defend an organization against distributed denial-of-service (DDos) attacks.</ins>_
+- _TODO: What aspect of security do load balancers protect?_ <ins>Load balancers lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. They also defend an organization against distributed denial-of-service (DDos) attacks.</ins>
 
-- What is the advantage of a jump box? <ins>Jump boxes improve security because they are highly-secured computers which are never used for non-administrative tasks such as accessing email and internet browsing.</ins>_
+- What is the advantage of a jump box? <ins>Jump boxes improve security because they are highly-secured computers which are never used for non-administrative tasks such as accessing email and internet browsing.</ins>
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <ins>file system</ins> and system <ins>performance such as CPU usage and memory usage</ins>.
-- _TODO:_ What does Filebeat watch for? <ins>Filebeat monitors log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.</ins>
-- 
-- _TODO: What does Metricbeat record?
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <ins>file system</ins> and system <ins>performance such as CPU usage and memory usage.</ins>
+- _TODO: What does Filebeat watch for?_ <ins>Filebeat monitors log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.</ins>
+
+- _TODO: What does Metricbeat record?_ <ins> Metricbeat collects metrics from the operating system and from services running on the server and ships them to the output you specifcy, such as Elasticsearch or Logstash.</ins>
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
