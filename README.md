@@ -12,6 +12,8 @@ https://github.com/Djack06/Project-1/blob/main/install-elk.yml
  
 https://github.com/Djack06/Project-1/blob/main/filebeat.playbook.yml
 
+https://github.com/Djack06/Project-1/blob/main/metricbeat-playbook.yml
+
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
