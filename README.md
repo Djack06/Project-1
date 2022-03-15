@@ -8,11 +8,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - List of Playbooks
 
-    - https://github.com/Djack06/Project-1/blob/main/install-elk.yml
+    - [install-elk.yml](https://github.com/Djack06/Project-1/blob/main/install-elk.yml)
  
-    - https://github.com/Djack06/Project-1/blob/main/filebeat.playbook.yml
+    - [filebeat.playbook.yml](https://github.com/Djack06/Project-1/blob/main/filebeat.playbook.yml)
 
-    - https://github.com/Djack06/Project-1/blob/main/metricbeat-playbook.yml
+    - [metricbeat-playbook.yml](https://github.com/Djack06/Project-1/blob/main/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topologu
