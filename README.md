@@ -30,7 +30,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly <ins>available</ins>, in addition to restricting <ins>access</ins> to the network.
 - _TODO: What aspect of security do load balancers protect? <ins>Load balancers lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. They also defend an organization against distributed denial-of-service (DDos) attacks.</ins>
 
-- What is the advantage of a jump box?_
+- What is the advantage of a jump box? <ins>Jump boxes improve security because they are highly-secured computers which are never used for non-administrative tasks such as using email and internet browsing.</ins>
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <ins>file system</ins> and system <ins>performance such as CPU usage and memory usage</ins>.
 - _TODO: What does Filebeat watch for?_
