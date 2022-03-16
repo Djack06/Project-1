@@ -52,29 +52,33 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the <ins>JumpBox</ins> machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_ <ins>Public IP Address: 73.129.62.212</ins>
+- _TODO: Add whitelisted IP addresses_ <ins>Public IP Address: Personal/Public IP</ins>
 
 Machines within the network can only be accessed by <ins>SSH</ins>.
 - _TODO: Which machine did you allow to access your ELK VM?_ <ins>The JumpBox VM is the only machine allow to access the ELK VM.</ins> What was its IP address?_ <ins>10.0.0.4</ins>
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name                 | Publicly Accessible | Allowed IP Addresses |
+|----------------------|---------------------|----------------------|
+| Jump Box             | No                  | Personal/Public IP   |
+| Web-1                | No                  | 10.0.0.9             |
+| Web-2                | No                  | 10.0.0.10            |
+| Project-1-Elk-Server | No                  | 10.1.0.4             |
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _TODO: What is the main advantage of automating configuration with Ansible?_
-<ins>Advantages to using Ansible are no special coding skills are required to use Ansible's playbooks.  It's flexible in that you can orchestrate the entire applciation environment no matter where it's deployed.</ins>
+<ins>Advantages to using Ansible are no special coding skills are required to use Ansible's playbooks.  It's flexible in that you can orchestrate the entire application environment no matter where it's deployed.</ins>
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- ...Install Docker
+- ...Install Python3-pip
+- ...Install Docker Module
+- ...Increase virtual memory & configure system to use more memory
+- ...Download and launch a docker elk container & enable service docker on boot
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
