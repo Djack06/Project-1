@@ -52,7 +52,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the <ins>JumpBox</ins> machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_ <ins>Public IP Address:</ins>
+- _TODO: Add whitelisted IP addresses_ <ins>Public IP Address: 73.129.62.212</ins>
 
 Machines within the network can only be accessed by <ins>SSH</ins>.
 - _TODO: Which machine did you allow to access your ELK VM?_ <ins>The JumpBox VM is the only machine allow to access the ELK VM.</ins> What was its IP address?_ <ins>10.0.0.4</ins>
