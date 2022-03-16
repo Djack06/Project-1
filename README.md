@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
   - [elk]
   - 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
  
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Run the playbook, and navigate to <ins>http://[your_elk_server_ip]:5601/app/kibana</ins> to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
