@@ -28,17 +28,16 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly <ins>available</ins>, in addition to restricting <ins>access</ins> to the network.
-- _TODO: What aspect of security do load balancers protect?_ <ins>Load balancers lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. They also defend an organization against distributed denial-of-service (DDos) attacks.</ins>
+- Load balancers lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. They also defend an organization against distributed denial-of-service (DDos) attacks.
 
-- _What is the advantage of a jump box?_ <ins>Jump boxes improve security because they are highly-secured computers which are never used for non-administrative tasks such as accessing email and internet browsing.</ins>
+- The advantge of Jump boxes is that it improves security because they are highly-secured computers which are never used for non-administrative tasks such as accessing email and internet browsing.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <ins>file system</ins> and system <ins>performance such as CPU usage and memory usage.</ins>
-- _TODO: What does Filebeat watch for?_ <ins>Filebeat monitors log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.</ins>
+- Filebeat monitors log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 
-- _TODO: What does Metricbeat record?_ <ins> Metricbeat collects metrics from the operating system and from services running on the server and ships them to the output you specifcy, such as Elasticsearch or Logstash.</ins>
+- Metricbeat collects metrics from the operating system and from services running on the server and ships them to the output you specifcy, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name                 | Function | IP Address | Operating System |
 |----------------------|----------|------------|------------------|
@@ -52,10 +51,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the <ins>JumpBox</ins> machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_ <ins>Public IP Address: Personal/Public IP</ins>
+- _Public IP Address: Personal/Public IP_
 
 Machines within the network can only be accessed by <ins>SSH</ins>.
-- _TODO: Which machine did you allow to access your ELK VM?_ <ins>The JumpBox VM is the only machine allow to access the ELK VM.</ins> What was its IP address?_ <ins>10.0.0.4</ins>
+- The JumpBox VM is the only machine allow to access the ELK VM. The IP address is 10.0.0.4.
 
 A summary of the access policies in place can be found in the table below.
 
@@ -69,16 +68,14 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
-<ins>Advantages to using Ansible are no special coding skills are required to use Ansible's playbooks.  It's flexible in that you can orchestrate the entire application environment no matter where it's deployed.</ins>
+- Advantages to using Ansible are no special coding skills are required to use Ansible's playbooks.  It's flexible in that you can orchestrate the entire application environment no matter where it's deployed.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...Install Docker
-- ...Install Python3-pip
-- ...Install Docker Module
-- ...Increase virtual memory & configure system to use more memory
-- ...Download and launch a docker elk container & enable service docker on boot
+- Install Docker
+- Install Python3-pip
+- Install Docker Module
+- Increase virtual memory & configure system to use more memory
+- Download and launch a docker elk container & enable service docker on boot
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
